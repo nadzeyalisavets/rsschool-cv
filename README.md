@@ -1,1 +1,1 @@
-https://nadzeyalisavets.github.io/rsschool-cv/cvcv
+https://nadzeyalisavets.github.io/rsschool-cv/cv
