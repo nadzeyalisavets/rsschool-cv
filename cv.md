@@ -12,3 +12,18 @@ ___
 
 **Location:** Tbilisi, Georgia
 ___
+
+### **Education**
+
+**2013-2017** Belarusian State Economic University, Minsk
+
+Faculty of Finance and Banking, Speciality "Finance and Credit"
+___
+### **Work experience**
+
+**March 2020 - Present:** EPAM Systems, Belarus - Analyst, Business Partnering Services
+
+**December 2016 - March 2020:** LLC BDO, Minsk - Auditor's assistant
+
+**October 2016 - December 2016:** LLC Advertising Agency "Subbota", Minsk - account-manager's assistant
+___
