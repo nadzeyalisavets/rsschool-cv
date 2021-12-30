@@ -27,3 +27,16 @@ ___
 
 **October 2016 - December 2016:** LLC Advertising Agency "Subbota", Minsk - account-manager's assistant
 ___
+
+### **Skills**
+
+* HTML, CSS basics
+* GIT, GitHub basics
+* VS Code
+* MS Word, MS Excel
+___
+
+### **Languages**
+
++ English - B2 (intermediate)
++ Russian - native
