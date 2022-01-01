@@ -1,4 +1,18 @@
-h1{
-    color: green;
-    text-align: center;
+@font-face {
+    font-family: Barlow, sans-serif;
+    src: url("assets/fonts/Barlow-ExtraLight.ttf");
+    font-weight: 200;
+}
+@font-face {
+    font-family: Barlow, sans-serif;
+    src: url("assets/fonts/Barlow-Regular.ttf");
+    font-weight: 400;
+}
+@font-face {
+    font-family: Barlow, sans-serif;
+    src: url(/assets/fonts/Barlow-Bold.ttf);
+    font-weight: 700;
+}
+*{
+    box-sizing: border-box;
 }
