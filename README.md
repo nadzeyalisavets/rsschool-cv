@@ -1,1 +1,1 @@
-# rsschool-cv
+https://nadzeyalisavets.github.io/rsschool-cv/
