@@ -20,6 +20,7 @@
 html {
     font-family: Barlow, sans-serif;
     scroll-behavior: smooth;
+    background-color: #E7E6E6;
 }
 
 html, body {
@@ -39,20 +40,30 @@ body {
     border: 1px solid red
 }
 
-.main-container {
-    display: flex;
+.additional_info {
+    display: block;
     flex-wrap: wrap;
-}
-
-.section {
     width: 50%;
+    border: 2px solid blue;
+    text-align: justify;
+    padding: 2%;
+    float:left;
 }
 
-.photo {
-    width: 280px;
-    height: 525x;
-    border-radius: 15px;
-    padding: 40px;
+.main_info {
+    display: block;
+    flex-wrap: wrap;
+    width: 50%;
+    border: 2px solid green;
+    text-align: justify;
+    padding: 2%;
+    float: right;
+}
+
+.my_photo{
+    width: 30%;
+    border-radius: 30px;
+    padding: 2%;
 }
 
 .nav-list {
