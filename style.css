@@ -19,6 +19,7 @@
 
 html {
     font-family: Barlow, sans-serif;
+    font-weight: 200;
     scroll-behavior: smooth;
     background-color: #E7E6E6;
 }
@@ -30,6 +31,8 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    font-size: 14px;
+    line-height: 1.1;
 }
 
 .header_container, 
@@ -37,33 +40,44 @@ body {
 .footer_container {
     max-width: 1000px;
     margin: 0 auto;
-    border: 1px solid red
 }
 
 .additional_info {
     display: block;
     flex-wrap: wrap;
     width: 50%;
-    border: 2px solid blue;
     text-align: justify;
     padding: 2%;
     float:left;
+    background-color: #DCDAF6;
 }
 
 .main_info {
     display: block;
     flex-wrap: wrap;
     width: 50%;
-    border: 2px solid green;
     text-align: justify;
     padding: 2%;
     float: right;
+    background-color: #DCDAF6;
+}
+
+@media (max-width: 768px) {
+    .additional_info,
+    .main_info {
+        width: 100%;
+    }
 }
 
 .my_photo{
-    width: 30%;
+    width: 50%;
     border-radius: 30px;
-    padding: 2%;
+    padding: 1%;
+    overflow: hidden;
+    display: flex;
+}
+.my_photo>img {
+    width: 100%;
 }
 
 .nav-list {
@@ -88,4 +102,33 @@ body {
 }
 .header_container {
     background: #7B1796;
+}
+
+#profile {
+    padding: 30% 30% 24% 0%;
+}
+
+.section-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.5;
+    color: #7B1796;
+    background-color: #FFFFFF;
+    padding: 5px;
+}
+.name {
+    font-size: 20px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #7B1796;
+}
+.date {
+    text-transform: uppercase;
+    font-weight: bold;
+    padding-top: 12px;
+    padding-bottom: 13px;
+}
+#work_experience {
+    padding: 12px 0px 0px 0px;
 }
