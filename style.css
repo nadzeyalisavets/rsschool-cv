@@ -48,8 +48,8 @@ body {
     width: 50%;
     text-align: justify;
     padding: 2%;
-    float:left;
     background-color: #DCDAF6;
+    order: 1;
 }
 
 .main_info {
@@ -58,8 +58,8 @@ body {
     width: 50%;
     text-align: justify;
     padding: 2%;
-    float: right;
     background-color: #DCDAF6;
+    order: 2;
 }
 
 @media (max-width: 768px) {
@@ -75,6 +75,7 @@ body {
     padding: 1%;
     overflow: hidden;
     display: flex;
+    margin-bottom: 17px;
 }
 .my_photo>img {
     width: 100%;
@@ -103,10 +104,20 @@ body {
 }
 .header_container {
     background: #7B1796;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+}
+
+.main_container {
+    overflow: auto;
+    margin-top: 75px;
+    display: flex;
 }
 
 #profile {
-    padding: 30% 30% 24% 0%;
+    padding: 28% 0;
 }
 
 .section-title {
@@ -127,8 +138,6 @@ body {
 .date {
     text-transform: uppercase;
     font-weight: bold;
-    padding-top: 12px;
-    padding-bottom: 13px;
 }
 #work_experience {
     padding: 12px 0px 0px 0px;
